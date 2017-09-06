@@ -6,4 +6,9 @@
 
     <color name="black_webull_trade_c302">#808080</color>
     <color name="black_webull_trade_c609">#388acf</color>
+
+    <color name="dark_black">#2f2f2f</color>
+    <color name="check_purple">#5675f4</color>
+    <color name="uncheck_gray">#88888e</color>
+    <color name="home_tab_bg">#fafafa</color>
 </resources>
