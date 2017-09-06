@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:orientation="vertical">
+             android:layout_height="match_parent">
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
         android:layout_gravity="bottom"
         android:orientation="horizontal">
 
         <android.support.v7.widget.AppCompatRadioButton
             style="@style/tab"
-            android:checked="true"
+            android:checked="false"
             android:drawableTop="@drawable/ic_home_tab_portfolio_selector"
             android:text="组合"/>
 
