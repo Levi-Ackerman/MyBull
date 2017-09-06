@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="72.0" android:viewportHeight="72.0">
+    <path android:fillColor="@color/black_webull_trade_c609" android:pathData="M64.5 19.3C67.3 24.2 69 29.9 69 36 69 54.2 54.2 69 36 69 25.6 69 16.3 64.2 10.2 56.6L45.8 21l-19 0.1 0 6.4 3.6 0L6.7 51.1C4.3 46.6 3 41.5 3 36 3 17.8 17.8 3 36 3 45.8 3 54.6 7.3 60.7 14.1L24 50.7l18.8 0 0 -6.4 -3.6 0 25.3 -25z" android:strokeWidth="6.0" />
+</vector>

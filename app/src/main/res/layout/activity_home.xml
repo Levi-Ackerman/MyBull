@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewpage"
-        android:layout_above="@+id/navigation"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    <devlight.io.library.ntb.NavigationTabBar
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        app:ntb_badge_gravity="top"
-        app:ntb_badge_position="right"
-        app:ntb_badged="true"
-        app:ntb_scaled="true"
-        app:ntb_swiped="true"
-        app:ntb_tinted="true"
-        app:ntb_title_mode="all"
-        app:ntb_titled="true" />
-</RelativeLayout>
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/tab"
+            android:checked="true"
+            android:drawableTop="@drawable/ic_home_tab_portfolio_selector"
+            android:text="组合"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/tab"
+            android:drawableTop="@drawable/ic_home_tab_market_selector"
+            android:checked="false"
+            android:text="行情"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/tab"
+            android:drawableTop="@drawable/ic_home_tab_trade_selector"
+            android:checked="false"
+            android:text="交易"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/tab"
+            android:drawableTop="@drawable/ic_home_tab_new_selector"
+            android:checked="false"
+            android:text="新闻"/>
+    </RadioGroup>
+</FrameLayout>
