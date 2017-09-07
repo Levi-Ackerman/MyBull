@@ -11,8 +11,7 @@
             android:icon="@drawable/ic_high_market"
             android:id="@+id/menu_subscription"
             app:showAsAction="ifRoom"
-            android:title="@string/preferences_purchase"
-            android:visible="false" />
+            android:title="@string/preferences_purchase"/>
         <item
             android:icon="@drawable/ic_vector_menu_mywallet"
             android:id="@+id/mywallet"
