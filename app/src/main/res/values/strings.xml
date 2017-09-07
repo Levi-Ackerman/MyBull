@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">买牛</string>
+    <string name="give_star">评价</string>
+    <string name="help">帮助</string>
+    <string name="feedback">客服中心</string>
+    <string name="setting">设置</string>
+    <string name="reminder">股价提醒</string>
+    <string name="practise">模拟持仓</string>
+    <string name="message">消息</string>
+    <string name="wallet">钱包</string>
 </resources>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-
     <color name="black_webull_trade_c302">#808080</color>
     <color name="black_webull_trade_c609">#388acf</color>
 
@@ -11,4 +7,6 @@
     <color name="check_purple">#5675f4</color>
     <color name="uncheck_gray">#88888e</color>
     <color name="home_tab_bg">#fafafa</color>
+
+    <color name="default_white">#ffffff</color>
 </resources>

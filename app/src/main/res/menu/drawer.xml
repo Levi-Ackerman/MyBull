@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/first">
+        <item android:id="@+id/message"
+            android:checked="false"
+            android:title="@string/message"
+            android:icon="@drawable/ic_home_tab_market_selector"/>
+        <item android:id="@+id/wallet"
+            android:checked="false"
+            android:title="@string/wallet"
+            android:icon="@drawable/ic_home_tab_market_selector"/>
+    </group>
+    <group android:id="@+id/second">
+        <item android:id="@+id/practise"
+            android:title="@string/practise"/>
+        <item android:id="@+id/reminder"
+            android:title="@string/reminder"/>
+    </group>
+    <group android:id="@+id/third">
+        <item android:id="@+id/setting"
+            android:title="@string/setting"/>
+        <item android:title="@string/feedback"
+            android:id="@+id/feedback"/>
+        <item android:id="@+id/help"
+            android:title="@string/help"/>
+        <item android:id="@+id/give_star"
+            android:title="@string/give_star"/>
+    </group>
+</menu>
