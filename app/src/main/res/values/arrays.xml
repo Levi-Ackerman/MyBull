@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alert_label">
+        <item>涨跌价格</item>
+        <item>涨跌幅</item>
+    </array>
+    <array name="alert_type">
+        <item>价格高于</item>
+        <item>价格低于</item>
+        <item>日涨幅超</item>
+        <item>日跌幅超</item>
+    </array>
+    <array name="chart_labels">
+        <item>1日</item>
+        <item>5日</item>
+        <item>日K</item>
+        <item>周K</item>
+        <item>月K</item>
+    </array>
+    <array name="colors_scheme_label">
+        <item>涨：绿色，跌：红色</item>
+        <item>涨：红色，跌：绿色</item>
+        <item>没有颜色</item>
+        <item>涨：绿色，跌：黄色</item>
+    </array>
+    <array name="display_theme">
+        <item>暗色主题</item>
+        <item>白色主题</item>
+        <item>纯黑主题</item>
+    </array>
+    <array name="finance_shell_tables">
+        <item>利润表</item>
+        <item>资产负债表</item>
+        <item>现金流表</item>
+    </array>
+    <array name="font_size_scheme_label">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </array>
+    <array name="name_symbol_entries">
+        <item>代码，名称</item>
+        <item>名称，代码</item>
+    </array>
+    <array name="notification_period_label">
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>60分钟</item>
+    </array>
+    <array name="orderby_label">
+        <item>拖动排序(默认)</item>
+        <item>名称</item>
+        <item>代码</item>
+        <item>涨幅</item>
+        <item>跌幅</item>
+        <item>振幅</item>
+    </array>
+    <array name="portfolio_listing_label">
+        <item>优先展示涨跌幅</item>
+        <item>同时展示涨跌幅与涨跌额</item>
+    </array>
+    <array name="trans_type">
+        <item>Buy</item>
+        <item>Sell</item>
+    </array>
+    <array name="update_period_label">
+        <item>手动</item>
+        <item>实时</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>60秒</item>
+    </array>
+    <array name="portfolio_holdings_label">
+        <item>打开</item>
+        <item>关闭</item>
+    </array>
+    <array name="chart_values">
+        <item>1d</item>
+        <item>5d</item>
+        <item>Daily</item>
+        <item>Weekily</item>
+        <item>Monthily</item>
+    </array>
+    <array name="news_calendar">
+        <item>@string/menu_news</item>
+        <item>@string/calendar</item>
+    </array>
+    <array name="widget_theme">
+        <item>黑色主题</item>
+        <item>白色主题</item>
+        <item>纯黑主题</item>
+    </array>
+</resources>

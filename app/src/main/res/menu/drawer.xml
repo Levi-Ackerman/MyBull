@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:id="@+id/first">
-        <item android:id="@+id/message"
-            android:checked="false"
-            android:title="@string/message"
-            android:icon="@drawable/ic_home_tab_market_selector"/>
-        <item android:id="@+id/wallet"
-            android:checked="false"
-            android:title="@string/wallet"
-            android:icon="@drawable/ic_home_tab_market_selector"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group_1">
+        <!--<item-->
+            <!--android:actionProviderClass="fm.stocks.ui.main.MessageActionProvider"-->
+            <!--android:id="@+id/menu_message"-->
+            <!--android:showAsAction="ifRoom" />-->
+        <item
+            android:icon="@drawable/ic_high_market"
+            android:id="@+id/menu_subscription"
+            app:showAsAction="ifRoom"
+            android:title="@string/preferences_purchase"
+            android:visible="false" />
+        <item
+            android:icon="@drawable/ic_vector_menu_mywallet"
+            android:id="@+id/mywallet"
+            app:showAsAction="ifRoom"
+            android:title="@string/drawer_item_wallet" />
     </group>
-    <group android:id="@+id/second">
-        <item android:id="@+id/practise"
-            android:title="@string/practise"/>
-        <item android:id="@+id/reminder"
-            android:title="@string/reminder"/>
+    <group
+        android:id="@+id/group_2">
+        <item
+            android:icon="@drawable/ic_vector_menu_holdings"
+            android:id="@+id/menu_shares"
+            app:showAsAction="ifRoom"
+            android:title="@string/shares" />
+        <item
+            android:icon="@drawable/ic_vector_menu_alert"
+            android:id="@+id/menu_alert"
+            app:showAsAction="ifRoom"
+            android:title="@string/alerts_menu_name" />
     </group>
-    <group android:id="@+id/third">
-        <item android:id="@+id/setting"
-            android:title="@string/setting"/>
-        <item android:title="@string/feedback"
-            android:id="@+id/feedback"/>
-        <item android:id="@+id/help"
-            android:title="@string/help"/>
-        <item android:id="@+id/give_star"
-            android:title="@string/give_star"/>
+    <group
+        android:id="@+id/group_3">
+        <item
+            android:icon="@drawable/ic_vector_menu_settings"
+            android:id="@+id/menu_setting"
+            app:showAsAction="always"
+            android:title="@string/option_menu_settings" />
+        <item
+            android:icon="@drawable/ic_vector_menu_feedback"
+            android:id="@+id/menu_feedback"
+            app:showAsAction="ifRoom"
+            android:title="@string/preferences_title_feedback" />
+        <item
+            android:icon="@drawable/iv_vector_service"
+            android:id="@+id/menu_service"
+            app:showAsAction="ifRoom"
+            android:title="@string/navigation_drawer_customer_service"
+            android:visible="false" />
+        <item
+            android:icon="@drawable/iv_vector_help"
+            android:id="@+id/menu_helper"
+            app:showAsAction="ifRoom"
+            android:title="@string/drawer_item_help" />
+        <item
+            android:icon="@drawable/ic_vector_menu_rate"
+            android:id="@+id/menu_rate"
+            app:showAsAction="ifRoom"
+            android:title="@string/preferences_title_rate_app" />
     </group>
 </menu>
